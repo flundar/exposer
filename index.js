@@ -39,7 +39,7 @@ async function yakala(request,message){
     }
     ).catch(error =>
     {
-        message.channel.send("something went wrong")
+        message.channel.send(`something went wrong \n ${res}`)
     });
 }
 
